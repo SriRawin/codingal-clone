@@ -272,19 +272,97 @@ h3 {
 }
 .horizontal-container-1,
 .horizontal-container-2 {
-  width: 80%;
+  width: 100%;
   height: 200px;
   margin: 35px 0px;
   border-radius: 4px;
+  box-shadow: 1px 1px 8px rgb(211, 211, 211);
 }
 .horizontal-container-1 {
   background-color: #fffaf2;
-  border: 1.5px solid #fcdaac;
+  border: 2px solid #fcdaac;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+.horizontal-container-1 .right {
+  justify-self: center;
+  align-self: center;
+  text-align: center;
+}
+.horizontal-container-1 .left {
+  width: 100%;
+  display: grid;
+  grid-template-rows: 1fr 2fr;
+}
+.horizontal-container-1 .left ul {
+  margin-top: 25px;
+  margin-left: 30px;
+  list-style: none;
+  display: inline-flex;
+  text-align: center;
+}
+.horizontal-container-1 .left li {
+  width: 100%;
+  justify-content: space-around;
+}
+.horizontal-container-1 .left .h-c-t {
+  font-size: 16px;
+  color: #333;
+  font-weight: 600;
+  margin: 5px 0px;
+}
+.horizontal-container-1 .left .h-c-d {
+  font-size: 16px;
+  color: #333;
+  font-weight: 200;
+  margin: 5px 0px;
 }
 .horizontal-container-2 {
   background-color: #fdf9ff;
-  border: 1.5px solid #f0d4ff;
+  border: 2px solid #f0d4ff;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
+
+.group {
+  width: 75%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.vertical-containers {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: space-between;
+  grid-column-gap: 64px;
+  margin: 10px 0px;
+}
+.group .vertical-containers ul {
+  list-style: none;
+  display: inline-flex;
+}
+.v-c-1,
+.v-c-2,
+.v-c-3 {
+  height: 600px;
+  width: 100%;
+  border-radius: 5px;
+  box-shadow: 2px 2px 10px rgb(211, 211, 211);
+}
+.v-c-1 {
+  background-color: #f3fff8;
+  border: 2px solid #a6d3a9;
+}
+.v-c-2 {
+  background-color: #fff5f7;
+  border: 2px solid #ec687d;
+}
+.v-c-3 {
+  background-color: #f4f0f6;
+  border: 2px solid #b288e9;
+}
+
 /* @media (max-width: 100vh) {
   .nav-bar {
     width: 100%;
