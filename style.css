@@ -14,36 +14,35 @@ h3 {
 h1 {
   letter-spacing: 1px;
   word-spacing: 1.5px;
-  font-size: 54px;
+  font-size: 48px;
   font-weight: 600;
 }
 
 h2 {
-  margin: 45px 0px;
-  font-size: 35px;
+  margin: 40px 0px;
+  font-size: 30px;
   font-weight: 400;
 }
 h3 {
-  margin: 25px 0px;
-  font-size: 19px;
+  margin: 20px 0px;
+  font-size: 16px;
   font-weight: 300;
 }
 
 .nav-bar {
-  height: 86px;
+  height: max-content;
   display: flex;
   width: 100%;
+  padding: 10px 0px 10px 0px;
 }
 .logo img {
-  margin-top: 20px;
   margin-left: 40px;
-
-  height: 44px;
+  max-height: 35px;
 }
 .nav-links {
   position: absolute;
   flex: 1;
-  right: 40px;
+  right: 30px;
 }
 
 .nav-links ul li {
@@ -53,7 +52,7 @@ h3 {
 .nav-links ul a {
   margin: 0px 0px 0px 24px;
   padding: 8px 0px;
-  font-size: 19px;
+  font-size: 16px;
   color: #333;
   text-decoration: none;
   font-weight: 300;
@@ -61,11 +60,10 @@ h3 {
 }
 #nav-button {
   color: #fff;
-  font-size: 19px;
-  letter-spacing: 0.8px;
-  height: 55px;
-  width: 190px;
-  margin: 15px 0px 15px 24px;
+  font-size: 16px;
+  height: 40px;
+  width: 160px;
+  margin: 0px 0px 0px 24px;
   padding: 8px 40px;
   border: transparent;
   border-radius: 5px;
@@ -89,20 +87,21 @@ h3 {
   display: grid;
   grid-template-columns: 50% 50%;
 }
-.hero-image {
-  position: absolute;
-  right: 20vh;
-  bottom: 0px;
-}
+
 .hero-image img {
-  width: 83%;
+  position: absolute;
+  right: 250px;
+  bottom: 0px;
+  max-width: 500px;
 }
 #book-now {
+  height: 50px;
+  width: 250px;
   color: #fff;
-  font-size: 24px;
-  padding: 25px 60px;
+  font-size: 16px;
+  padding: 12px 40px;
   border: transparent;
-  border-radius: 5px;
+  border-radius: 3px;
   font-weight: 600;
   background-color: #ff5a43;
   outline: 0;
@@ -110,23 +109,25 @@ h3 {
 }
 
 .title {
-  margin-top: 200px;
-  margin-left: 17vh;
+  margin-top: 140px;
+  margin-left: 16vh;
 }
 #search-bar {
   outline: #fff;
   background-color: #fff;
-  border-radius: 5px;
+  border-radius: 3px;
   outline: 0;
 }
 #search-bar input {
+  height: 50px;
+  width: 300px;
   color: black;
-  font-size: 20px;
-  padding: 25px 70px;
+  font-size: 16px;
+  padding: 12px 40px;
   padding-left: 10px;
   letter-spacing: 0.8px;
   border: 1px solid #fff;
-  border-radius: 5px;
+  border-radius: 3px;
   outline: 0;
   border-left: 1.5px solid rgb(218, 218, 218);
   border-bottom-left-radius: 0px;
@@ -143,7 +144,7 @@ h3 {
 }
 .indian-flag {
   margin-left: 15px;
-  width: 20px;
+  width: 15px;
 }
 .container-1 {
   height: max-content;
@@ -152,7 +153,7 @@ h3 {
   align-items: center;
   flex-direction: column;
   justify-self: center;
-  padding-bottom: 20px;
+  padding-bottom: 7px;
 }
 .scholarship-card {
   background-color: white;
@@ -161,46 +162,47 @@ h3 {
   height: max-content;
   width: max-content;
   position: relative;
-  margin: 90px 0px 70px 0px;
+  margin: 90px 0px 50px 0px;
   border-radius: 8px;
   box-shadow: 2px 2px 16px #dfdfdf;
 }
 .left-section {
   padding: 20px 0px;
-  padding-right: 10px;
+  padding-right: 5px;
   background-color: white;
 }
 .img-container {
-  width: 100%;
+  position: relative;
   background-color: #ffedeb;
-  border-radius: 0px 100px 100px 0px;
+  border-radius: 0px 90px 90px 0px;
 }
 .left-section img {
   position: relative;
-  left: 80px;
-  max-width: 60%;
+  max-width: 350px;
+  bottom: 0px;
+  top: 5px;
+  left: 40px;
 }
 .right-section {
-  padding: 20px 60px;
+  padding: 20px 40px;
 }
 .line-1 {
   color: rgb(63, 63, 63);
-  font-size: 28px;
+  font-size: 24px;
   font-weight: 600;
   margin: 10px 0px;
 }
 .line-2 {
   color: rgb(114, 114, 114);
-  font-size: 22px;
+  font-size: 20px;
   font-weight: 500;
   margin: 15px 0px;
 }
 .title-text {
-  font-size: 45px;
+  font-size: 40px;
   font-weight: 700;
-  margin: 50px 0px 50px 0px;
+  margin: 40px 0px;
   color: rgb(63, 63, 63);
-  word-spacing: 1px;
 }
 .teacher-video {
   display: flex;
@@ -221,14 +223,14 @@ h3 {
 .teacher-video .name {
   margin: 25px 0px 5px 0px;
   text-align: center;
-  font-size: 27px;
+  font-size: 24px;
   color: #333;
   font-weight: 600;
   letter-spacing: 0.7px;
 }
 .teacher-video .desc {
   text-align: center;
-  font-size: 18px;
+  font-size: 14px;
   font-weight: 200;
   color: rgb(95, 95, 95);
 }
@@ -255,18 +257,23 @@ h3 {
 .rounded-bar ul {
   list-style: none;
   display: inline-flex;
-  margin: 6px 40px 6px 40px;
+  margin: 4px 40px;
 }
 .rounded-bar ul p {
-  font-size: 24px;
+  font-size: 18px;
   font-weight: 500;
   color: rgb(100, 100, 100);
 }
 .rounded-bar .extra {
   background-color: #ffbab0;
-  padding: 18px 40px;
+  padding: 10px 40px;
   border-radius: 50px;
   border: 2px solid white;
+}
+.horizontal-container {
+  width: 80%;
+  height: 300px;
+  color: red;
 }
 /* @media (max-width: 100vh) {
   .nav-bar {
