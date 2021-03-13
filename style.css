@@ -322,6 +322,7 @@ h3 {
   border: 2px solid #f0d4ff;
   display: grid;
   grid-template-columns: 1fr 1fr;
+  justify-items: center;
 }
 
 .group {
