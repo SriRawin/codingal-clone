@@ -211,7 +211,7 @@ h3 {
 }
 .teacher-video video {
   background-color: #fff;
-  margin: 0px 80px;
+  margin: 0px 70px;
   border-radius: 12px;
   border-top: -2px;
   outline: none;
@@ -270,10 +270,20 @@ h3 {
   border-radius: 50px;
   border: 2px solid white;
 }
-.horizontal-container {
+.horizontal-container-1,
+.horizontal-container-2 {
   width: 80%;
-  height: 300px;
-  color: red;
+  height: 200px;
+  margin: 35px 0px;
+  border-radius: 4px;
+}
+.horizontal-container-1 {
+  background-color: #fffaf2;
+  border: 1.5px solid #fcdaac;
+}
+.horizontal-container-2 {
+  background-color: #fdf9ff;
+  border: 1.5px solid #f0d4ff;
 }
 /* @media (max-width: 100vh) {
   .nav-bar {
