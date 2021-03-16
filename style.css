@@ -135,9 +135,13 @@ h3 {
   border-bottom-left-radius: 0px;
   border-top-left-radius: 0px;
 }
+.forms ul {
+  display: flex;
+  flex-direction: row;
+}
 .forms ul li {
-  display: inline-block;
   margin-right: 10px;
+  list-style: none;
 }
 .icon {
   color: rgb(153, 153, 153);
