@@ -322,22 +322,23 @@ h3 {
   display: flex;
   flex-direction: row;
   align-self: center;
+  margin-top: 20px;
+  
 }
 .horizontal-container-1 .left li {
   width: 100%;
-
-  margin-left: 10px;
+  height: 100%;
+  margin: 5px;
+  
 }
 .h-c-t {
   font-size: 16px;
-
   font-weight: 600;
   margin: 5px 0px;
 }
 .h-c-d {
   font-size: 16px;
-
-  font-weight: 300;
+  font-weight: 400;
   margin: 5px 0px;
 }
 .horizontal-container-2 {
